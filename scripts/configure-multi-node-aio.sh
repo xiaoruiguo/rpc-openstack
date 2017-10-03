@@ -25,7 +25,8 @@ source ${BASE_DIR}/scripts/functions.sh
 ## Main ----------------------------------------------------------------------
 
 # Check the openstack-ansible submodule status
-check_submodule_status
+# NOTE(mattt): Removed since this branch isn't using submodules
+#check_submodule_status
 
 # Run multi-node AIO config setup playbook
 export TARGET=${TARGET:-"mnaio"}
